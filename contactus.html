@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>contactus</title>
+</head>
+
+<body>
+
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                  <h1>Web Development</h1>
+            </div>
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/bullet.png" height="30" width="40" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nucampNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i> About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="developer.html"><i class="fa fa-list fa-lg"></i> Developer</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="top100.html"><i
+                      class="fa fa-address-card fa-lg"></i> top100</a></li>
+                  </ul>
+            </div>
+        </div>
+    </nav>
+
+
+<div class="container py-5">
+    <form>
+              <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputFirstName">First Name</label>
+            <input type="text" class="form-control" id="inputFirstName">
+          </div>
+          <div class="form-group col-md-6">
+                <label for="inputLastName">Last Name</label>
+                <input type="text" class="form-control" id="inputLastName">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputGender">Gender</label>
+            <input type="text" class="form-control" id="inputGender">
+          </div>
+        </div>
+        <div class="form-row">
+        <div class="form-group col-md-4">
+          
+                <div class="form-check">
+                    <label>what programming language do you know ?</label>
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="javascipt">JavaScript
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="html">HTML
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="css" >CSS
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="java" >JAVA
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="php" >PHP
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <label class="form-check-label">
+                      <input type="checkbox" class="form-check-input" value="ruby" >RUBY
+                    </label>
+                  </div>
+             </div>
+             <div class="form-group col-md-4">
+            <label for="inputInterest">What is your interest ?</label>
+            <select id="inputInterest" class="form-control">
+              <option selected>Web Developer</option>
+              <option>Coding</option>
+              <option>Full Stack</option>
+              <option>Database</option>
+              <option>AWS</option>
+            </select>
+          </div>
+        
+        </div>
+        <button class="btn-lg">submit</button>
+      </form>
+    </div>
+
+    
+    
+      <div class="container">
+        <div class="row text-center">
+            <div class="col-4 first-box">
+            <h1><span class="glyphicon glyphicon-earphone"></span></h1>
+            <h3>Phone</h3>
+            <p>0000-000-0000</p>
+        </div>
+        <div class="col-4 third-box">
+            <h1><span class="glyphicon glyphicon-send"></span></h1>
+            <h3>E-mail</h3>
+            <p>project@thepracticalit.com</p>
+        </div>
+        <div class="col-4 fourth-box">
+            <h1><span class="glyphicon glyphicon-leaf"></span></h1>
+            <h3>Web Site</h3>
+            <p>www.webanddeveloper.com</p>
+        </div>
+        </div>
+    </div>
+        
+    <footer class="site-footer">
+      <div class="container">
+          <div class="row">
+
+              <div class="col-lg-12 text-center align-self-center">
+                <p> Copyright © webanddeveloper 2021</p>
+          
+              
+              </div>
+          </div>
+      </div>
+  </footer>
+        
+            <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+            
+        
+        </body>
+        </html>
